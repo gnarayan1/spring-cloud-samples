@@ -1,0 +1,10 @@
+spring:
+   application:
+      name: uiSvcs
+   profiles:
+      active: dev
+   cloud:
+      config:
+         discovery:
+            enabled: true
+            serviceId: configServer
